@@ -1,0 +1,22 @@
+.done-tasks-visible {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 3rem;
+  border: solid 4px;
+  border-color: rgb(11, 3, 167);
+  background-color: #1052b6;
+  color: white;
+  border-radius: 50px;
+  margin-left: 33rem;
+}
+.done-tasks-invisible {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 3rem;
+  border: solid 2px;
+  border-color: rgb(0, 38, 255);
+  background-color: #10b631;
+  color: red;
+  border-radius: 50px;
+  margin-left: 33rem;
+}
