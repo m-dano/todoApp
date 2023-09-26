@@ -1,14 +1,28 @@
-//import React, { useState } from "react";
 import "./TaskItem.css";
 
 function TaskItem(props) {
-  let cssStyle = "task-item__blue";
+  let cssStyle = "task-item task-item__blue";
   if (props.level === "1") {
-    cssStyle = "task-item__green";
+    cssStyle = "task-item task-item__green";
   } else if (props.level === "2") {
-    cssStyle = "task-item__blue";
+    cssStyle = "task-item task-item__blue";
   } else {
-    cssStyle = "task-item__red";
+    cssStyle = "task-item task-item__red";
+  }
+
+  switch (props.level) {
+    case "1":
+      cssStyle = "task-item task-item__green";
+      break;
+    case "2":
+      cssStyle = "task-item task-item__blue";
+      break;
+    case "3":
+      cssStyle = "task-item task-item__red";
+      break;
+    default:
+      cssStyle = "task-item task-item__blue";
+      break;
   }
 
   const doneHandler = () => {

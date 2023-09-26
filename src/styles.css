@@ -1,9 +1,7 @@
-.App {
+.app {
   font-family: sans-serif;
   text-align: center;
 }
-.Title {
-  font-family: sans-serif;
-  text-align: center;
+.app__title {
   color: rgb(72, 6, 255);
 }

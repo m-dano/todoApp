@@ -53,8 +53,8 @@ export default function App() {
   }
 
   return (
-    <div className="App">
-      <h1 className="Title">My ToDo list</h1>
+    <div className="app">
+      <h1 className="app__title">My ToDo list</h1>
 
       <DoneTasksVisible All={VisibleAll} />
       <NewTask addTask={AddTask} />

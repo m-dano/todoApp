@@ -1,4 +1,3 @@
-//import { useState } from "react";
 import TaskItemFilter from "./TaskItemFilter";
 
 function Tasks(props) {

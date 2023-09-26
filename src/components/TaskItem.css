@@ -1,45 +1,33 @@
-.task-item__green {
+.task-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex: 1;
   margin: 0.8rem;
   padding: 0.8rem;
-  background-color: #84f575;
-  border: 4px solid green;
   border-radius: 40px;
-}
-
-.task-item__blue {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex: 1;
-  margin: 0.8rem;
-  padding: 0.8rem;
-  background-color: #7fcfff;
-  border: 4px solid blue;
-  border-radius: 40px;
-}
-
-.task-item__red {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex: 1;
-  margin: 0.8rem;
-  padding: 0.8rem;
-  background-color: #f78484;
-  border: 4px solid red;
-  border-radius: 40px;
-}
-.task-item__red {
 }
 
 .task-item h2 {
   color: #111111;
   font-size: 1rem;
 }
+
+.task-item__green {
+  background-color: #84f575;
+  border: 4px solid green;
+}
+
+.task-item__blue {
+  background-color: #7fcfff;
+  border: 4px solid blue;
+}
+
+.task-item__red {
+  background-color: #f78484;
+  border: 4px solid red;
+}
+
 .task-item__done {
   color: green;
   font-weight: bold;

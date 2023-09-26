@@ -26,7 +26,6 @@ function NewTask(props) {
       hide: "false"
     };
     props.addTask(task);
-    //props.onSavetask(task);
     setEnteredName("");
     setEnteredLevel("1");
   };

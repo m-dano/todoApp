@@ -7,26 +7,14 @@ function TaskItemFilter(props) {
     setDoneHandler(!done);
   }
 
-  if (props.visibleAll === false) {
-    return (
-      <TaskItem
-        name={props.name}
-        level={props.level}
-        hide={done}
-        update={UpdateHide}
-        visibleAll={props.visibleAll}
-      />
-    );
-  } else {
-    return (
-      <TaskItem
-        name={props.name}
-        level={props.level}
-        hide={false}
-        update={UpdateHide}
-        visibleAll={props.visibleAll}
-      />
-    );
-  }
+  return (
+    <TaskItem
+      name={props.name}
+      level={props.level}
+      hide={props.visibleAll ? false : done}
+      update={UpdateHide}
+      visibleAll={props.visibleAll}
+    />
+  );
 }
 export default TaskItemFilter;

@@ -8,8 +8,7 @@ function DoneTasksVisible(props) {
     SetVisible(!visible);
     if (visible === false) {
       SetText("Need ToDo");
-    }
-    if (visible === true) {
+    } else {
       SetText("Visible All");
     }
     props.All();
